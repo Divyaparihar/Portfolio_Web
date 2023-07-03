@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Add Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <!-- Add your other stylesheets or custom CSS here -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Add Bootstrap icon CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Add social Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+  <!-- Add more Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+ <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg  sticky-top bg-white">
+  <div class="container">
+      <a class="navbar-brand" href="#">
+        <p id="logo">PORTFOLIO</p>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education_skill">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education_skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificate_section">Certificate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project_section">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+  </div>
+</nav>
+
+<!-- Home -->
+
+<div class="start vh-100 d-flex align-items-center" id="home">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-7  mx-auto text-center" id="home" style="padding-top: 200px;">
+          <h1 class="display-4 text-white">Hello, I am Divya Parihar</h1>
+          <h3 class="display-8 text-white">Full Stack Web Developer</h3>
+          <a href="https://drive.google.com/file/d/1BjcdvJiOKncDsOkwKD3EhFhWkoEPFu0z/view?usp=sharing"><button type="button" class="btn btn-outline-light mt-4">Get My Resume</button></a>
+          <div class="social">
+            <a href="https://github.com/Divyaparihar"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/divya-parihar/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/divyaparihar404/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.hackerrank.com/parihardivya77?hr_r=1" target="_blank"><i class='fab fa-hackerrank'></i></a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- about start -->
+
+  <section id="about-section">
+  <div class="row justify-content-evenly">
+    <div class="col-md-5 pt-5">
+      <img src="images/coding.gif" class="img-fluid w-100 h-95" style="border-radius: 25px;" alt="gif">
+    </div>
+
+    <div class="col-md-5 pt-2">
+      <h2 class="mt-2 ms-3" href="/about">ABOUT ME</h2><br>
+      <p id="content">As a postgraduate with a degree in Computer Application, I am passionate about building robust and
+        efficient web applications as a full stack developer. With a solid foundation in both front-end and back-end
+        development, <br><br>
+        I am skilled in technology such as Java, Spring, Springboot, Microservices JavaScript, MySQL, MongoDB, and
+        HTML, CSS & Bootstrap. My ability to learn new technologies quickly and work collaboratively in a team environment allows me
+        to consistently deliver quality solutions. <br><br>
+        I am seeking opportunities to expand my knowledge and contribute to innovative projects.</p>
+    </div>
+  </section>
+
+    <!-- Education -->
+
+    <section id="education_skill">
+    <div class="row justify-content-evenly pt-5 pb-5" style="background-color:#F7F7F7;">
+      <div class="col-md-5 pt-3">
+        <h2 class="mt-2 ms-3" id="education-skill-heading" class="hover">EDUCATION</h2><br>
+
+        <div class="accordion mt-5" id="accordionExample">
+          <!-- Accordion Item 1 -->
+          <div class="accordion-item ">
+            <h3 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id="accordionButton">
+                Postgraduate in Full Stack Web Development
+              </button>
+            </h3>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Skill Lync <br>
+                Chennai, Tamilnadu <br>
+                2022 - 2023
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Item 2 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="accordionButton">
+                Master in Computer Application
+              </button>
+            </h3>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Mahakal Institute of Technology & Management<br>
+                Ujjain, M.P. <br>
+                2021 - 2023
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Item 3 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                id="accordionButton">
+                Bachelor in Computer Science
+              </button>
+            </h3>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Shree Sai Institute of Technology <br>
+                Ratlam, M.P. <br>
+                2015 - 2018
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Item 4 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="accordionButton">
+                Senior Secondary School Examination
+              </button>
+            </h3>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Morning Star Higher Secondary School<br>
+                Ratlam, M.P. <br>
+                2014 - 2015
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Item 5 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" id="accordionButton">
+                Secondary School Examination
+              </button>
+            </h3>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Pragati Convent Higher Secondary School <br>
+                Ratlam, M.P. <br>
+                2012 - 2013
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Skills -->
+
+      <div class="col-md-5 pt-3 pb-5">
+
+        <h2 class="mt-2 ms-3" id="education-skill-heading" class="hover">SKILLS</h2><br>
+
+        <h5 class="mt-2">Java</h5>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%"></div>
+        </div>
+
+        <h5 class="mt-2">Springboot</h5>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+        </div>
+
+        <h5 class="mt-2">SQL</h5>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%"></div>
+        </div>
+
+        <h5 class="mt-2">MongoDB</h5>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%"></div>
+        </div>
+
+        <h5 class="mt-2">HTML</h5>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+        </div>
+
+        <h5 class="mt-2">CSS</h5>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%"></div>
+        </div>
+
+        <h5 class="mt-2">JavaScript</h5>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+        </div>
+
+        <h5 class="mt-2">Bootstrap</h5>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate -->
+
+
+    <section id="certificate_section">
+      <div class="container-fluid pb-5" style= "margin-bottom:0px; background-color:#011F5B;">
+        <div class="row mb-md-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h2 class="display-6 text-center mt-5 pt-5" style="font-size: 60px; font-weight: bold; color: #fff;"
+              >CERTIFICATE</h2>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-lg-4 col-sm-6" style="margin-top: 70px;">
+            <div class="certificates">
+              <img src="images/java.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Introduction to Java Programming 2.0</h4>
+                  <h6 class="text-white">Skill Lync</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6" style="margin-top: 70px;">
+            <div class="certificates">
+              <img src="images/Database.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Everything about Database 2.0</h4>
+                  <h6 class="text-white">Skill Lync</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6" style="margin-top: 70px;">
+            <div class="certificates">
+              <img src="images/micro.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Microservices using Java, Spring & Docker</h4>
+                  <h6 class="text-white">Skill Lync</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6" style="margin-top: 70px;">
+            <div class="certificates">
+              <img src="images/FullStack Aptitude.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Aptitude</h4>
+                  <h6 class="text-white">Skill Lync</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6" style="margin-top: 70px;">
+            <div class="certificates">
+              <img src="images/Verbal Ability.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Verbal Ability</h4>
+                  <h6 class="text-white">Skill Lync</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-5" style="margin-top: 70px;">
+            <div class="certificates">
+              <a href="https://github.com/Divyaparihar/Ecommerce-Project"></a>
+              <img src="images/HR.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">HR Preparation</h4>
+                  <h6 class="text-white">Skill Lync</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="project_section">
+    <div id="cards_landscape_wrap-2">
+      <div class="col-md-8 mx-auto text-center">
+        <h2 class="display-6 text-center mb-md-2" id="project-heading" class="hover" style="font-size: 60px; font-weight: bold; color:#011F5B;"
+          >PROJECTS</h2>
+      </div>
+      <div class="container">
+        <div class="row ">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <a href="">
+              <div class="card-flyer">
+                <div class="text-box">
+                  <div class="image-box">
+                    <a href="https://github.com/Divyaparihar/Ecommerce-Project"><img src="images/ecommerce.jpg.png" class="img-fluid" /></a>
+                  </div>
+                  <div class="text-container">
+                    <h6>Java Ecommerce Project <br> (Jan 2023)</h6> <br>
+                    <p>• Project aim: Development of an e-commerce application using Java code. <br>
+                      • It's a console based application. <br>
+                      • Buyers can register and login to access the application. <br>
+                      • Buyers can browse and purchase products. <br>
+                      • Buyers can place orders for the selected products. <br>
+                      • Buyers can add products to their shopping cart. <br>
+                      • Buyers can delete their placed orders. <br>
+                      • The application is developed using the Eclipse integrated development environment (IDE).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <a href="">
+              <div class="card-flyer">
+                <div class="text-box">
+                  <div class="image-box">
+                   <a href="https://github.com/Divyaparihar/E-Commerce-Database"> <img src="images/databaseschema.jpg.png" class="img-fluid" alt="" /></a>
+                  </div>
+                  <div class="text-container">
+                    <h6>Database Ecommerce Project <br> (Feb 2023) </h6> <br>
+                    <p>• Project aim: Designed a optimized & normalized database schema for efficient e-commerce
+                      operations. <br>
+                      • The application is developed using MySQL, a relational database management system. <br>
+                      • An Entity-Relationship Diagram (ERD) has been created to model the structure and relationships
+                        of the e-commerce website's entities.<br>
+                      • User can get product details.<br>
+                      • User can get orders details for the selected products.<br>
+                      • Buyers can add products to their shopping cart. <br>
+                      • Buyers can delete their placed orders.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+            <a href="">
+              <div class="card-flyer">
+                <div class="text-box">
+                  <div class="image-box">
+                   <a href="https://github.com/Divyaparihar/Banking-Application"><img src="images/bank.avif" class="img-fluid" alt="" /></a>
+                  </div>
+                  <div class="text-container">
+                    <h6>Banking Application (April 2023) </h6> <br><br>
+                    <p>• Project aim: Development of Microservices providing banking facilities using Java and Spring Boot.<br>
+                       • Customers can fetch account details through the "Accounts" microservice. <br>
+                       • Customers can access card-related facilities through the "Cards" microservice. <br>
+                       • Customers can retrieve loan details using the "Loans" microservice. <br>
+                       • Customers can obtain information about insurance policies through the "Insurance" microservice.<br>
+                       • A "Config Server" microservice is used for centralized configuration management. <br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 ">
+            <a href="">
+              <div class="card-flyer">
+                <div class="text-box">
+                  <div class="image-box">
+                   <a href="https://raw.githack.com/Divyaparihar/Go_Study/main/Go_Study/index.html"><img src="images/gostudy.jpg" class="img-fluid" alt="" /></a>
+                  </div>
+                  <div class="text-container">
+                    <h6>GoStudy Web <br> (May 2023) </h6> <br><br>
+                    <p>• Project aim: Responsive website showcasing work using HTML & Bootstrap.<br>
+                      • Implement a Bootstrap Carousel component on the homepage includes captivating images. <br>
+                      • Utilize Bootstrap's Progress Bar component to showcase learners' progress. <br>
+                      • Use Bootstrap's Accordion component to organize and display frequently asked questions (FAQs) or additional information about courses or services. <br>
+                      • project showcase displaying images, descriptions, and Project link.
+                      • Convenient contact form and social media icons for easy communication and connection with
+                      visitors. <br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 ">
+            <a href="">
+              <div class="card-flyer">
+                <div class="text-box">
+                  <div class="image-box">
+                   <a href="/"><img src="images/portfolio.png" class="img-fluid" alt="" /></a>
+                  </div>
+                  <div class="text-container">
+                    <h6>Portfolio Web <br> (JUNE 2023) </h6> <br><br>
+                    <p>• Project aim: Responsive portfolio website showcasing work using HTML, CSS, and Bootstrap.<br>
+                      • Engaging personal information section with contact details, introduction, and integrated social
+                        media profiles. <br>
+                      • Detailed "About Me" section to introduce myself <br>
+                      • Showcasing my education background and skills section <br>
+                      • project showcase displaying images, descriptions, and Project link.
+                      • Convenient contact form and social media icons for easy communication and connection with
+                      visitors. <br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- contact -->
+
+    <section id="contact-sec">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <h2 class="display-6 text-center mt-5 mb-2" style="font-size: 60px; font-weight: bold;color: #011F5B;">CONTACT ME</h2>
+            <h5 class="display-6 text-center mb-5" style="font-size: 25px; font-weight: bold;">Get in
+              touch</h5>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly pt-5 pb-5">
+          <div class="col-md-4 pt-5 ps-md-5">
+            <div class="contact-left">
+              <p class="contact-icon"><i class="fas fa-user fa-lg"></i>
+              <h5>Name</h5>
+          </div>
+              <h6 class="Contact-subcontent">Divya Parihar</h6></p>
+            <br>
+
+            <div class="contact-left">
+              <p class="contact-icon"><i class="fas fa-map-marker-alt fa-lg"></i>
+              <h5>Address</h5>
+            </div>
+              <h6 class="Contact-subcontent">Ratlam, Madhya Pradesh, India</h6></p>
+            <br>
+
+            <div class="contact-left">
+              <p class="contact-icon"><i class="bx bxl-gmail fa-lg"></i>
+              <h5>E-mail</h5>
+            </div>
+              <h6 class="Contact-subcontent">parihardivya77@gmail.com</h6></p><br><br>
+          </div>
+
+          <div class="col-md-6 pt-3">
+            <section id="contact">
+              <div class="container">
+                <div class="row mb-5">
+                  <div class="col-md-8 mx-auto 
+                     text-center">
+                    <h3 style="font-weight: bold;" class="hover">Message me</h3>
+                  </div>
+                </div>
+                <form class="row g-3 justify-content-center">
+                  <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="Name" id="Name">
+                  </div>
+                  <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="E-mail" id="Email">
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" placeholder="Subject" id="Subject">
+                  </div>
+                  <div class="col-md-10">
+                    <textarea name="" id="" cols="30" rows="5" class="form-control"
+                      placeholder="Message" id="Message"></textarea>
+                  </div>
+                  <div class="col-md-10 d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" style="background-color: #011F5B;">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <div class="footer-bottom py-3">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                <h4>Follow Me</h4>
+        <div class="foot-social">
+            
+            <a href="https://www.linkedin.com/in/divya-parihar/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Divyaparihar"><i class='bx bxl-github'></i></a>
+            <a href="https://www.hackerrank.com/parihardivya77?hr_r=1"><i
+              class='fab fa-hackerrank'></i></a>
+            <a href="https://www.instagram.com/divyaparihar404/"><i class='bx bxl-instagram'></i></a>
+        </div>
+               <p id="footer-span"><span>Created By <a href="#">Divya Parihar</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span></p>
+              </div>
+          </div>
+      </div>
+  </div>
+   
+
+
+ <!-- container end -->
+  </div>
+
+
+  <!-- Add Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

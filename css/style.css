@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Poppins:wght@700&family=Roboto+Slab&family=Roboto:wght@700&family=Tilt+Warp&display=swap');
+
+
+:root {
+   --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.hover:hover {
+  text-decoration:underline;
+}
+
+
+#logo {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #011F5B;
+}
+
+#navbarNav{
+  color: #011F5B;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  box-shadow: var(--box-shadow);
+  
+}
+
+.logo {
+  width: 160px;
+}
+
+.navbar .nav-link {
+  font-size: 20px;
+  font-weight: 700;
+  color: #011F5B;
+}
+
+.navbar .nav-link.active {
+  color:#011F5B;
+  text-decoration:underline;
+}
+
+.btn {
+  padding: 14px 18px;
+  border-width: 2px;
+  border-radius: 0;
+}
+
+.start {
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+
+.start::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(21, 20, 51, 0.8);
+  z-index: -1;
+}
+
+
+/* hjj */
+
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+  margin-top: 40px;
+}
+
+
+.social a {
+  margin-bottom: 1rem;
+  font-size: 33px;
+  color: white;
+  padding: 10px;
+}
+
+.social a:hover {
+  color: #011F5B;
+}
+
+/* about */
+
+#about-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #011F5B;
+}
+
+#content {
+    margin-left: 17px;
+    color: #fff;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+/* education */
+
+.progress-bar-animated {
+  background-color: #011F5B;
+}
+
+#education-skill-heading {
+  color: #011F5B;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#accordionButton {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #011F5B;
+    font-weight: bold;
+}
+
+
+.accordion-body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #011F5B;
+    font-weight: 100;
+    background-color:white;
+}
+
+.accordion-item {
+    border-color: #011F5B;
+    border-style:dashed
+  }
+
+ /* certificate  */
+
+
+ .certificates {
+    position: relative;
+    overflow: hidden;
+}
+
+.certificates .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(21, 20, 51, 0.8);
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.certificates img {
+    transition: all 0.4s ease;   
+}
+
+.certificates:hover .overlay{
+    opacity: 1;
+}
+
+.certificates:hover img {
+    transform: scale(1.1);
+}
+
+
+/* project */
+
+#project-heading {
+   padding-top: 150px;
+}
+
+#cards_landscape_wrap-2{
+    text-align: center;
+    background: #F7F7F7;
+  }
+  #cards_landscape_wrap-2 .container{
+    padding-top: 80px; 
+    padding-bottom: 100px;
+  }
+  #cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+  }
+  #cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box{
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px #011F5B;
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    width: 100%;
+    height: 280px;
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+    opacity: 0.7;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box{
+    text-align: center;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    padding: 30px 18px;
+  }
+  #cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px #011F5B;
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover{
+     background: #fff;
+     box-shadow: 0px 15px 26px #011F5B;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #011F5B;
+    text-align:left
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box h6{
+    margin-top: 0px;
+    margin-bottom: 4px; 
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px;
+    color: #011F5B
+  }
+
+  #cards_landscape_wrap-2 :hover {
+        color: #fff;
+ }
+
+  /* contact */
+
+  #contact-sec {
+    background-color: #fff;
+    color:#011F5B;
+  }
+
+  .contact-left {
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    margin-bottom: 0.02px;
+  }
+
+  .contact-icon {
+    margin-right: 25px;
+    font-size: 20px;
+  }
+
+  .Contact-subcontent {
+    margin-left: 45px;
+  }
+
+  
+
+  h5:hover {
+    text-decoration:underline;
+  }
+
+  /* footer */
+
+.footer-bottom {
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  background-color: #011F5B;
+}
+
+.foot-social a i {
+  color: #011F5B;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.foot-social a i:hover {
+  color: #011F5B;
+}
+
+#footer-span {
+  padding-top: 35px;
+}
+  
